@@ -192,6 +192,10 @@
                     <i data-lucide="check-circle-2" class="w-5 h-5"></i>
                     <span>Konfirmasi Kehadiran Anda</span>
                 </a>
+                <a href="https://zoom.us/j/94214844947?pwd=RwCxBW9bLrcXMIpRMKo0xRb0aH8GdV.1" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-500 hover:to-teal-500 text-white font-semibold text-base transition transform hover:-translate-y-0.5 shadow-xl shadow-blue-500/25 flex items-center justify-center gap-2 border border-blue-400/30">
+                    <i data-lucide="video" class="w-5 h-5 text-blue-200"></i>
+                    <span>Join Zoom Meeting</span>
+                </a>
                 <button onclick="downloadCalendarInvite()" class="w-full sm:w-auto px-8 py-4 rounded-xl glass-panel text-slate-200 font-semibold text-base hover:bg-slate-800/80 transition flex items-center justify-center gap-2 border border-slate-700">
                     <i data-lucide="calendar-plus" class="w-5 h-5 text-amber-400"></i>
                     <span>Simpan ke Kalender (.ics)</span>
@@ -431,11 +435,11 @@
                         <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800 space-y-2 mb-6">
                             <div class="flex justify-between items-center text-xs">
                                 <span class="text-slate-400">Meeting ID:</span>
-                                <span class="font-mono text-teal-300 font-semibold">892 4410 8892</span>
+                                <span class="font-mono text-teal-300 font-semibold text-sm">942 1484 4947</span>
                             </div>
                             <div class="flex justify-between items-center text-xs">
                                 <span class="text-slate-400">Passcode:</span>
-                                <span class="font-mono text-teal-300 font-semibold">STRATCON26</span>
+                                <span class="font-mono text-teal-300 font-semibold text-sm">718364</span>
                             </div>
                             <div class="flex justify-between items-center text-xs">
                                 <span class="text-slate-400">Waiting Room:</span>
@@ -444,10 +448,16 @@
                         </div>
                     </div>
 
-                    <button onclick="copyMeetingLink()" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 font-medium text-sm transition border border-teal-500/40">
-                        <i data-lucide="copy" class="w-4 h-4"></i>
-                        <span id="copyBtnText">Salin Tautan Akses Virtual</span>
-                    </button>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <a href="https://zoom.us/j/94214844947?pwd=RwCxBW9bLrcXMIpRMKo0xRb0aH8GdV.1" target="_blank" rel="noopener noreferrer" class="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-blue-600 to-teal-600 hover:from-blue-500 hover:to-teal-500 text-white font-semibold text-sm transition shadow-lg shadow-blue-500/20">
+                            <i data-lucide="video" class="w-4 h-4"></i>
+                            <span>Join Zoom Meeting</span>
+                        </a>
+                        <button onclick="copyMeetingLink()" class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 font-medium text-sm transition border border-teal-500/40">
+                            <i data-lucide="copy" class="w-4 h-4"></i>
+                            <span id="copyBtnText">Salin Tautan</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -648,11 +658,11 @@
 
         // Copy Virtual Meeting Link
         function copyMeetingLink() {
-            const meetingDetails = "Zoom Meeting: STRATCON 2026 Executive Summit\\nMeeting ID: 892 4410 8892\\nPasscode: STRATCON26\\nLink: https://zoom.us/j/89244108892?pwd=STRATCON2026";
+            const meetingDetails = "Join Zoom Meeting\nhttps://zoom.us/j/94214844947?pwd=RwCxBW9bLrcXMIpRMKo0xRb0aH8GdV.1\n\nMeeting ID: 942 1484 4947\nPasscode: 718364";
             navigator.clipboard.writeText(meetingDetails).then(() => {
                 const btn = document.getElementById('copyBtnText');
                 const orig = btn.innerText;
-                btn.innerText = "✓ Berhasil Disalin ke Clipboard!";
+                btn.innerText = "✓ Tautan Disalin!";
                 setTimeout(() => {
                     btn.innerText = orig;
                 }, 2500);
@@ -671,8 +681,8 @@
                 "DTSTART:20261126T020000Z",
                 "DTEND:20261126T093000Z",
                 "SUMMARY:Executive Strategy & Digital Transformation Summit 2026",
-                "DESCRIPTION:Pertemuan strategis tingkat pimpinan direksi dan mitra ekosistem STRATCON 2026.",
-                "LOCATION:Grand Ballroom Ayana Midplaza Jakarta & Zoom Hybrid",
+                "DESCRIPTION:Pertemuan strategis tingkat pimpinan direksi dan mitra ekosistem STRATCON 2026.\\nJoin Zoom Meeting: https://zoom.us/j/94214844947?pwd=RwCxBW9bLrcXMIpRMKo0xRb0aH8GdV.1\\nMeeting ID: 942 1484 4947\\nPasscode: 718364",
+                "LOCATION:Grand Ballroom Ayana Midplaza Jakarta & Zoom Hybrid (ID: 942 1484 4947)",
                 "STATUS:CONFIRMED",
                 "END:VEVENT",
                 "END:VCALENDAR"
