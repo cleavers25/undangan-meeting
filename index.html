@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Resmi: Executive Strategy & Digital Transformation Summit 2026</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6',
+                            600: '#0d9488',
+                            700: '#0f766e',
+                            800: '#115e59',
+                            900: '#134e4a',
+                            950: '#042f2e',
+                        },
+                        gold: {
+                            400: '#fbbf24',
+                            500: '#f59e0b',
+                            600: '#d97706',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Plus Jakarta Sans', 'Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Canvas Confetti -->
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <style>
+        .glass-panel {
+            background: rgba(15, 23, 42, 0.75);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #fef08a 0%, #f59e0b 50%, #d97706 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .emerald-glow {
+            box-shadow: 0 0 50px -10px rgba(20, 184, 166, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 font-sans antialiased min-h-screen selection:bg-teal-500 selection:text-white">
+
+    <!-- Top Notice / Switcher Bar -->
+    <div class="bg-slate-900/90 border-b border-slate-800 text-xs py-2 px-4 text-center flex flex-wrap items-center justify-between gap-2 text-slate-400">
+        <div class="flex items-center gap-2 mx-auto sm:mx-0">
+            <span class="inline-flex items-center px-2 py-0.5 rounded text-[11px] font-medium bg-teal-950 text-teal-300 border border-teal-800/60">
+                Landing Page 1
+            </span>
+            <span>Undangan Meeting Eksklusif & Konfirmasi Kehadiran (RSVP)</span>
+        </div>
+        <div class="flex items-center gap-3 mx-auto sm:mx-0">
+            <a href="../landing-bebas/index.html" class="inline-flex items-center gap-1.5 text-teal-400 hover:text-teal-300 font-medium hover:underline transition">
+                <span>Lihat Landing Page 2 (PulseFlow SaaS)</span>
+                <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </a>
+            <a href="../index.html" class="text-slate-400 hover:text-white transition">Menu Utama</a>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="sticky top-0 z-50 glass-panel border-b border-slate-800/80">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-teal-500 to-emerald-400 flex items-center justify-center shadow-lg shadow-teal-500/20">
+                    <i data-lucide="building-2" class="w-5 h-5 text-slate-950 font-bold"></i>
+                </div>
+                <div>
+                    <span class="text-sm font-semibold tracking-wider uppercase text-teal-400 block leading-tight">STRATCON 2026</span>
+                    <span class="text-xs text-slate-400">Executive Leadership Summit</span>
+                </div>
+            </div>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
+                <a href="#tentang" class="hover:text-teal-400 transition">Tentang Pertemuan</a>
+                <a href="#agenda" class="hover:text-teal-400 transition">Agenda Acara</a>
+                <a href="#pembicara" class="hover:text-teal-400 transition">Keynote Speaker</a>
+                <a href="#lokasi" class="hover:text-teal-400 transition">Lokasi & Akses</a>
+            </div>
+
+            <div class="flex items-center gap-3">
+                <a href="#rsvp" class="px-5 py-2.5 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-semibold text-sm hover:from-teal-400 hover:to-emerald-400 transition shadow-lg shadow-teal-500/25 flex items-center gap-2">
+                    <i data-lucide="calendar-check" class="w-4 h-4"></i>
+                    <span>RSVP Sekarang</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden pt-12 pb-24 md:pt-20 md:pb-32">
+        <!-- Ambient Background Glows -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[350px] bg-teal-500/15 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-10 right-10 w-72 h-72 bg-amber-500/10 rounded-full blur-2xl pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <!-- Invitation Badge -->
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-panel border border-teal-500/30 text-teal-300 text-xs sm:text-sm font-medium mb-8 animate-fade-in shadow-inner">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+                <span>Undangan Resmi Dewan Direksi & Mitra Strategis</span>
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl lg:text-6xl font-serif font-bold tracking-tight text-white leading-tight sm:leading-tight mb-6">
+                Executive Strategy & Digital Synergy <span class="gold-gradient-text">Summit 2026</span>
+            </h1>
+
+            <p class="text-base sm:text-lg text-slate-300 max-w-3xl mx-auto leading-relaxed mb-10 font-normal">
+                Pertemuan strategis tingkat pimpinan untuk menyelaraskan peta jalan transformasi digital, inovasi kecerdasan buatan, dan akselerasi pertumbuhan bisnis kuartal 2026/2027.
+            </p>
+
+            <!-- Event Highlight Chips -->
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 max-w-3xl mx-auto mb-12">
+                <div class="glass-panel p-4 rounded-2xl flex items-center gap-4 text-left border border-slate-800">
+                    <div class="p-3 bg-teal-500/10 text-teal-400 rounded-xl">
+                        <i data-lucide="calendar" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-400 uppercase font-semibold">Hari & Tanggal</div>
+                        <div class="text-sm font-bold text-slate-100">Kamis, 26 Nov 2026</div>
+                    </div>
+                </div>
+
+                <div class="glass-panel p-4 rounded-2xl flex items-center gap-4 text-left border border-slate-800">
+                    <div class="p-3 bg-teal-500/10 text-teal-400 rounded-xl">
+                        <i data-lucide="clock" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-400 uppercase font-semibold">Waktu Pelaksanaan</div>
+                        <div class="text-sm font-bold text-slate-100">09:00 - 16:30 WIB</div>
+                    </div>
+                </div>
+
+                <div class="glass-panel p-4 rounded-2xl flex items-center gap-4 text-left border border-slate-800">
+                    <div class="p-3 bg-amber-500/10 text-amber-400 rounded-xl">
+                        <i data-lucide="map-pin" class="w-6 h-6"></i>
+                    </div>
+                    <div>
+                        <div class="text-xs text-slate-400 uppercase font-semibold">Format Pertemuan</div>
+                        <div class="text-sm font-bold text-slate-100">Hybrid (Onsite & Zoom)</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Real-time Countdown Timer -->
+            <div class="max-w-2xl mx-auto mb-12">
+                <div class="text-xs uppercase tracking-widest text-slate-400 font-semibold mb-3">Waktu Menuju Pertemuan Dimulai</div>
+                <div class="grid grid-cols-4 gap-3 sm:gap-4 text-center">
+                    <div class="glass-panel p-3 sm:p-4 rounded-xl border border-slate-800">
+                        <div id="days" class="text-2xl sm:text-4xl font-extrabold text-teal-400">14</div>
+                        <div class="text-[11px] sm:text-xs text-slate-400 uppercase font-medium mt-1">Hari</div>
+                    </div>
+                    <div class="glass-panel p-3 sm:p-4 rounded-xl border border-slate-800">
+                        <div id="hours" class="text-2xl sm:text-4xl font-extrabold text-teal-400">08</div>
+                        <div class="text-[11px] sm:text-xs text-slate-400 uppercase font-medium mt-1">Jam</div>
+                    </div>
+                    <div class="glass-panel p-3 sm:p-4 rounded-xl border border-slate-800">
+                        <div id="minutes" class="text-2xl sm:text-4xl font-extrabold text-teal-400">45</div>
+                        <div class="text-[11px] sm:text-xs text-slate-400 uppercase font-medium mt-1">Menit</div>
+                    </div>
+                    <div class="glass-panel p-3 sm:p-4 rounded-xl border border-slate-800">
+                        <div id="seconds" class="text-2xl sm:text-4xl font-extrabold text-teal-400">20</div>
+                        <div class="text-[11px] sm:text-xs text-slate-400 uppercase font-medium mt-1">Detik</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Actions -->
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a href="#rsvp" class="w-full sm:w-auto px-8 py-4 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-bold text-base hover:from-teal-400 hover:to-emerald-400 transition transform hover:-translate-y-0.5 shadow-xl shadow-teal-500/20 flex items-center justify-center gap-2">
+                    <i data-lucide="check-circle-2" class="w-5 h-5"></i>
+                    <span>Konfirmasi Kehadiran Anda</span>
+                </a>
+                <button onclick="downloadCalendarInvite()" class="w-full sm:w-auto px-8 py-4 rounded-xl glass-panel text-slate-200 font-semibold text-base hover:bg-slate-800/80 transition flex items-center justify-center gap-2 border border-slate-700">
+                    <i data-lucide="calendar-plus" class="w-5 h-5 text-amber-400"></i>
+                    <span>Simpan ke Kalender (.ics)</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Key Information & About -->
+    <section id="tentang" class="py-16 border-t border-slate-800/80 bg-slate-900/40">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <h2 class="text-xs uppercase font-bold tracking-widest text-teal-400 mb-2">Fokus Pertemuan</h2>
+                <h3 class="text-2xl sm:text-3xl font-serif font-bold text-white">Membuka Babak Baru Efisiensi & Sinergi Korporat</h3>
+                <p class="text-slate-400 text-sm mt-3">Tiga pilar esensial yang akan dibahas bersama jajaran eksekutif, dewan komisaris, dan strategic partner.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="glass-panel p-8 rounded-2xl border border-slate-800 hover:border-teal-500/40 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i data-lucide="cpu" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-3">Enterprise AI Integration</h4>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Implementasi agen cerdas mandiri dan pipeline data terintegrasi untuk otomatisasi proses bisnis inti dan pengambilan keputusan real-time.
+                    </p>
+                </div>
+
+                <div class="glass-panel p-8 rounded-2xl border border-slate-800 hover:border-teal-500/40 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i data-lucide="shield-check" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-3">Governance & Risk Resiliency</h4>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Strategi pertahanan siber multi-tier, kepatuhan regulasi perlindungan data terbaru, serta ketahanan operasional infrastruktur cloud.
+                    </p>
+                </div>
+
+                <div class="glass-panel p-8 rounded-2xl border border-slate-800 hover:border-teal-500/40 transition group">
+                    <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center mb-6 group-hover:scale-110 transition">
+                        <i data-lucide="trending-up" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-lg font-bold text-white mb-3">2027 Revenue Allocation</h4>
+                    <p class="text-sm text-slate-400 leading-relaxed">
+                        Pemaparan alokasi investasi CAPEX teknologi, proyeksi ROI portofolio digital, dan penguatan kemitraan ekosistem B2B berulang.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Agenda / Rundown -->
+    <section id="agenda" class="py-20">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <span class="text-xs uppercase font-bold tracking-widest text-teal-400">Susunan Jadwal</span>
+                <h2 class="text-3xl font-serif font-bold text-white mt-1">Rundown Agenda Pertemuan</h2>
+                <p class="text-slate-400 text-sm mt-2">Seluruh sesi dirancang terstruktur dengan alokasi waktu diskusi interaktif.</p>
+            </div>
+
+            <!-- Timeline -->
+            <div class="relative border-l-2 border-slate-800 ml-4 md:ml-32 space-y-8">
+                <!-- Item 1 -->
+                <div class="relative pl-6 sm:pl-8 group">
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-slate-950 border-4 border-teal-500"></div>
+                    <div class="md:absolute md:-left-36 md:top-1 text-sm font-bold text-teal-400">08:30 - 09:00</div>
+                    <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-slate-300">Registrasi & Morning Coffee</span>
+                        <h4 class="text-base font-bold text-white mt-2">Executive Check-in & Informal Networking</h4>
+                        <p class="text-sm text-slate-400 mt-1">Registrasi tanda tangan digital, pembagian briefing folder eksklusif, dan sarapan santai di Foyer Lounge.</p>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="relative pl-6 sm:pl-8 group">
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-slate-950 border-4 border-teal-500"></div>
+                    <div class="md:absolute md:-left-36 md:top-1 text-sm font-bold text-teal-400">09:00 - 10:30</div>
+                    <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded bg-teal-950 text-teal-300 border border-teal-800/40">Plenary Session</span>
+                        <h4 class="text-base font-bold text-white mt-2">Opening Keynote: Horizon Inovasi & Transformasi Skala Global</h4>
+                        <p class="text-sm text-slate-400 mt-1">Oleh CEO & Chief Technology Strategist. Evaluasi capaian Q3-Q4 dan penegasan arah strategis perusahaan.</p>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="relative pl-6 sm:pl-8 group">
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-slate-950 border-4 border-amber-500"></div>
+                    <div class="md:absolute md:-left-36 md:top-1 text-sm font-bold text-amber-400">10:45 - 12:15</div>
+                    <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded bg-amber-950 text-amber-300 border border-amber-800/40">Roundtable Focus Group</span>
+                        <h4 class="text-base font-bold text-white mt-2">Breakout Discussion: Alokasi Modal & Inisiatif High-Impact</h4>
+                        <p class="text-sm text-slate-400 mt-1">Diskusi meja bundar terbagi dalam 3 track: Modern Cloud Infrastructure, AI Automation, dan Komersialisasi Produk.</p>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="relative pl-6 sm:pl-8 group">
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-slate-950 border-4 border-slate-600"></div>
+                    <div class="md:absolute md:-left-36 md:top-1 text-sm font-bold text-slate-400">12:15 - 13:30</div>
+                    <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded bg-slate-800 text-slate-300">Break & Social Lunch</span>
+                        <h4 class="text-base font-bold text-white mt-2">Executive Networking Luncheon</h4>
+                        <p class="text-sm text-slate-400 mt-1">Makan siang eksklusif fine-dining di Pavilion Ballroom bersama dewan pimpinan dan tamu kehormatan.</p>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="relative pl-6 sm:pl-8 group">
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-slate-950 border-4 border-teal-500"></div>
+                    <div class="md:absolute md:-left-36 md:top-1 text-sm font-bold text-teal-400">13:30 - 15:30</div>
+                    <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded bg-teal-950 text-teal-300 border border-teal-800/40">Action Plan Formulation</span>
+                        <h4 class="text-base font-bold text-white mt-2">Presentasi Hasil Sesi & Ratifikasi MoU Sinergi</h4>
+                        <p class="text-sm text-slate-400 mt-1">Penyusunan target komitmen kuartalan dan penandatanganan kesepakatan kolaborasi antardivisi & mitra.</p>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="relative pl-6 sm:pl-8 group">
+                    <div class="absolute -left-2.5 top-1.5 w-5 h-5 rounded-full bg-slate-950 border-4 border-emerald-500"></div>
+                    <div class="md:absolute md:-left-36 md:top-1 text-sm font-bold text-emerald-400">15:30 - 16:30</div>
+                    <div class="glass-panel p-6 rounded-2xl border border-slate-800">
+                        <span class="text-xs font-semibold px-2.5 py-1 rounded bg-emerald-950 text-emerald-300 border border-emerald-800/40">Closing Toast</span>
+                        <h4 class="text-base font-bold text-white mt-2">Closing Remarks & Cocktail Reception</h4>
+                        <p class="text-sm text-slate-400 mt-1">Penutupan resmi, foto bersama dewan pimpinan, dan ramah tamah petang.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Keynote Speakers -->
+    <section id="pembicara" class="py-16 bg-slate-900/50 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs uppercase font-bold tracking-widest text-teal-400">Panel Narasumber</span>
+                <h2 class="text-3xl font-serif font-bold text-white mt-1">Host & Keynote Speakers</h2>
+                <p class="text-slate-400 text-sm mt-2">Para pembicara kunci yang akan memimpin jalannya dialog strategis.</p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Speaker 1 -->
+                <div class="glass-panel p-6 rounded-2xl border border-slate-800 text-center hover:border-teal-500/30 transition group">
+                    <div class="relative w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-teal-500/20 group-hover:ring-teal-500/50 transition">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80" alt="Prof. Ir. Amanda Prasetya" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Prof. Amanda Prasetya, Ph.D</h3>
+                    <p class="text-xs text-teal-400 font-semibold mb-3">Chief Innovation & Strategy Officer</p>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Pakar transformasi ekosistem digital dengan 18+ tahun pengalaman mengarsiteki adopsi teknologi korporasi multinasional.
+                    </p>
+                </div>
+
+                <!-- Speaker 2 -->
+                <div class="glass-panel p-6 rounded-2xl border border-slate-800 text-center hover:border-teal-500/30 transition group">
+                    <div class="relative w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-teal-500/20 group-hover:ring-teal-500/50 transition">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80" alt="Bramantyo Wardhana" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Bramantyo Wardhana, M.Sc</h3>
+                    <p class="text-xs text-teal-400 font-semibold mb-3">VP of Enterprise Infrastructure</p>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Memimpin inisiatif modernisasi hybrid-cloud, keamanan data berstandar global, dan otomatisasi operasional terdistribusi.
+                    </p>
+                </div>
+
+                <!-- Speaker 3 -->
+                <div class="glass-panel p-6 rounded-2xl border border-slate-800 text-center hover:border-teal-500/30 transition group">
+                    <div class="relative w-24 h-24 mx-auto mb-4 rounded-full overflow-hidden ring-4 ring-teal-500/20 group-hover:ring-teal-500/50 transition">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=400&q=80" alt="Dra. Siti Nurhaliza" class="w-full h-full object-cover">
+                    </div>
+                    <h3 class="text-lg font-bold text-white">Dian Sastrowijaya, MBA</h3>
+                    <p class="text-xs text-teal-400 font-semibold mb-3">Managing Director & Strategic Board</p>
+                    <p class="text-xs text-slate-400 leading-relaxed">
+                        Fokus pada sinergi investasi, ekspansi pangsa pasar Asia Tenggara, dan tata kelola korporat berkelanjutan (ESG).
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location & Hybrid Details -->
+    <section id="lokasi" class="py-20">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <span class="text-xs uppercase font-bold tracking-widest text-teal-400">Akses Acara</span>
+                <h2 class="text-3xl font-serif font-bold text-white mt-1">Pilihan Format Kehadiran</h2>
+                <p class="text-slate-400 text-sm mt-2">Disediakan fasilitas pertemuan fisik berkelas bintang lima serta akses virtual terenkripsi.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-stretch">
+                <!-- Physical Location -->
+                <div class="glass-panel p-8 rounded-3xl border border-slate-800 flex flex-col justify-between">
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-emerald-950 text-emerald-300 text-xs font-semibold border border-emerald-800/50 mb-4">
+                            <i data-lucide="building" class="w-3.5 h-3.5"></i>
+                            <span>Kehadiran Fisik (On-Site)</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Grand Ballroom Ayana Midplaza Jakarta</h3>
+                        <p class="text-sm text-slate-300 mb-6">
+                            Jl. Jenderal Sudirman Kav. 10-11, Karet Tengsin, Tanah Abang, Jakarta Pusat 10220.
+                        </p>
+
+                        <div class="space-y-3 mb-6 text-sm text-slate-300">
+                            <div class="flex items-center gap-3">
+                                <i data-lucide="check" class="w-4 h-4 text-teal-400"></i>
+                                <span>Valet Parking & Dedicated Executive Drop-off</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i data-lucide="check" class="w-4 h-4 text-teal-400"></i>
+                                <span>High-Speed WiFi Dedicated 1 Gbps & Private Lounges</span>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i data-lucide="check" class="w-4 h-4 text-teal-400"></i>
+                                <span>Dresscode: Business Formal / Batik Lengan Panjang</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://maps.google.com" target="_blank" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-white font-medium text-sm transition border border-slate-700">
+                        <i data-lucide="navigation" class="w-4 h-4 text-teal-400"></i>
+                        <span>Buka Penunjuk Arah Google Maps</span>
+                    </a>
+                </div>
+
+                <!-- Virtual Access -->
+                <div class="glass-panel p-8 rounded-3xl border border-slate-800 flex flex-col justify-between">
+                    <div>
+                        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-950 text-blue-300 text-xs font-semibold border border-blue-800/50 mb-4">
+                            <i data-lucide="video" class="w-3.5 h-3.5"></i>
+                            <span>Kehadiran Daring (Virtual Zoom Hybrid)</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2">Private Secure Zoom Room (Ultra-HD)</h3>
+                        <p class="text-sm text-slate-300 mb-6">
+                            Kanal siaran terproteksi enkripsi end-to-end dengan fitur live Q&A, simultaneous interpreter (ID/EN), dan dokumen digital terunduh langsung.
+                        </p>
+
+                        <div class="bg-slate-900/90 p-4 rounded-xl border border-slate-800 space-y-2 mb-6">
+                            <div class="flex justify-between items-center text-xs">
+                                <span class="text-slate-400">Meeting ID:</span>
+                                <span class="font-mono text-teal-300 font-semibold">892 4410 8892</span>
+                            </div>
+                            <div class="flex justify-between items-center text-xs">
+                                <span class="text-slate-400">Passcode:</span>
+                                <span class="font-mono text-teal-300 font-semibold">STRATCON26</span>
+                            </div>
+                            <div class="flex justify-between items-center text-xs">
+                                <span class="text-slate-400">Waiting Room:</span>
+                                <span class="text-emerald-400 font-semibold">Aktif (Verifikasi Identitas)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <button onclick="copyMeetingLink()" class="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-teal-500/20 hover:bg-teal-500/30 text-teal-300 font-medium text-sm transition border border-teal-500/40">
+                        <i data-lucide="copy" class="w-4 h-4"></i>
+                        <span id="copyBtnText">Salin Tautan Akses Virtual</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RSVP Section -->
+    <section id="rsvp" class="py-20 relative overflow-hidden bg-slate-900/80 border-t border-slate-800">
+        <!-- Accent Glow -->
+        <div class="absolute bottom-0 right-1/4 w-96 h-96 bg-teal-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center mb-10">
+                <span class="text-xs uppercase font-bold tracking-widest text-teal-400">Formulir Konfirmasi</span>
+                <h2 class="text-3xl font-serif font-bold text-white mt-1">Konfirmasi Kehadiran Anda (RSVP)</h2>
+                <p class="text-slate-300 text-sm mt-2">
+                    Mohon berkenan mengisi konfirmasi sebelum <strong>Senin, 23 November 2026 pukul 18:00 WIB</strong> guna penyiapan alokasi kursi dan konsumsi.
+                </p>
+            </div>
+
+            <!-- RSVP Form Box -->
+            <div class="glass-panel p-8 sm:p-10 rounded-3xl border border-slate-700/80 shadow-2xl emerald-glow">
+                <form id="rsvpForm" onsubmit="handleRsvpSubmit(event)" class="space-y-6">
+                    <!-- Name & Title -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Nama Lengkap & Gelar *</label>
+                            <input type="text" id="guestName" required placeholder="Contoh: Dr. Budi Santoso, M.M."
+                                class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-slate-100 placeholder-slate-500 text-sm focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Jabatan & Institusi / Perusahaan *</label>
+                            <input type="text" id="guestCompany" required placeholder="Contoh: Direktur Utama - PT Sinergi Nusantara"
+                                class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-slate-100 placeholder-slate-500 text-sm focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 transition">
+                        </div>
+                    </div>
+
+                    <!-- Email & Phone -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Email Korporat / Pribadi *</label>
+                            <input type="email" id="guestEmail" required placeholder="nama@perusahaan.co.id"
+                                class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-slate-100 placeholder-slate-500 text-sm focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 transition">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Nomor WhatsApp Aktif *</label>
+                            <input type="tel" id="guestPhone" required placeholder="+62 812-xxxx-xxxx"
+                                class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-slate-100 placeholder-slate-500 text-sm focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 transition">
+                        </div>
+                    </div>
+
+                    <!-- Attendance Options -->
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-3">Status Konfirmasi Kehadiran *</label>
+                        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3">
+                            <label class="relative flex items-center p-4 rounded-xl border border-slate-700 bg-slate-900/70 hover:bg-slate-800/80 cursor-pointer transition has-[:checked]:border-teal-500 has-[:checked]:bg-teal-950/40">
+                                <input type="radio" name="attendance" value="Hadir Fisik (On-site)" checked class="text-teal-500 focus:ring-teal-400 w-4 h-4">
+                                <span class="ml-3 text-sm font-semibold text-slate-200">Hadir Fisik (On-site)</span>
+                            </label>
+                            <label class="relative flex items-center p-4 rounded-xl border border-slate-700 bg-slate-900/70 hover:bg-slate-800/80 cursor-pointer transition has-[:checked]:border-teal-500 has-[:checked]:bg-teal-950/40">
+                                <input type="radio" name="attendance" value="Hadir Daring (Zoom)" class="text-teal-500 focus:ring-teal-400 w-4 h-4">
+                                <span class="ml-3 text-sm font-semibold text-slate-200">Hadir Daring (Zoom)</span>
+                            </label>
+                            <label class="relative flex items-center p-4 rounded-xl border border-slate-700 bg-slate-900/70 hover:bg-slate-800/80 cursor-pointer transition has-[:checked]:border-red-500 has-[:checked]:bg-red-950/40">
+                                <input type="radio" name="attendance" value="Berhalangan Hadir" class="text-red-500 focus:ring-red-400 w-4 h-4">
+                                <span class="ml-3 text-sm font-semibold text-slate-200">Berhalangan Hadir</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Dietary & Special Notes -->
+                    <div>
+                        <label class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Preferensi Makanan / Pertanyaan Topik Diskusi</label>
+                        <textarea id="guestNotes" rows="3" placeholder="Contoh: Vegetarian / Permintaan khusus / Pertanyaan awal terkait CAPEX..."
+                            class="w-full px-4 py-3 rounded-xl bg-slate-900/90 border border-slate-700 text-slate-100 placeholder-slate-500 text-sm focus:outline-none focus:border-teal-400 focus:ring-1 focus:ring-teal-400 transition"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-teal-500 to-emerald-500 text-slate-950 font-bold text-base hover:from-teal-400 hover:to-emerald-400 transition shadow-lg shadow-teal-500/25 flex items-center justify-center gap-2">
+                        <i data-lucide="send" class="w-5 h-5"></i>
+                        <span>Kirim Konfirmasi Kehadiran</span>
+                    </button>
+                </form>
+
+                <!-- Success State Overlay (Hidden by Default) -->
+                <div id="rsvpSuccess" class="hidden text-center py-10 space-y-4">
+                    <div class="w-16 h-16 bg-emerald-500/20 text-emerald-400 rounded-full flex items-center justify-center mx-auto ring-4 ring-emerald-500/30">
+                        <i data-lucide="check" class="w-8 h-8"></i>
+                    </div>
+                    <h3 class="text-2xl font-serif font-bold text-white">Terima Kasih Atas Konfirmasi Anda!</h3>
+                    <p id="rsvpSummary" class="text-slate-300 text-sm max-w-lg mx-auto">
+                        Konfirmasi kehadiran telah tercatat di basis data panitia. Kami telah mengirimkan barcode registrasi & undangan resmi ke email Anda.
+                    </p>
+                    <div class="pt-4 flex flex-wrap justify-center gap-4">
+                        <button onclick="downloadCalendarInvite()" class="px-5 py-2.5 rounded-xl bg-teal-500 text-slate-950 font-semibold text-sm hover:bg-teal-400 transition flex items-center gap-2">
+                            <i data-lucide="calendar" class="w-4 h-4"></i>
+                            <span>Tambahkan ke Kalender</span>
+                        </button>
+                        <button onclick="resetRsvpForm()" class="px-5 py-2.5 rounded-xl bg-slate-800 text-slate-300 font-semibold text-sm hover:bg-slate-700 transition">
+                            Kirim Jawaban Lain
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Secretariat / Contact Support -->
+            <div class="mt-8 text-center text-xs text-slate-400 flex flex-wrap items-center justify-center gap-6">
+                <span class="flex items-center gap-1.5">
+                    <i data-lucide="phone-call" class="w-3.5 h-3.5 text-teal-400"></i>
+                    Hotline Sekretariat: +62 821-1234-5678 (Sekar / Liaison Officer)
+                </span>
+                <span class="flex items-center gap-1.5">
+                    <i data-lucide="mail" class="w-3.5 h-3.5 text-teal-400"></i>
+                    Email: summit2026@corporate-stratcon.id
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-12 border-t border-slate-900 text-center text-xs text-slate-500">
+        <div class="max-w-5xl mx-auto px-4 space-y-4">
+            <div class="flex items-center justify-center gap-2 text-slate-400 font-medium">
+                <i data-lucide="shield" class="w-4 h-4 text-teal-400"></i>
+                <span>Executive Strategy & Digital Transformation Summit 2026 • Bersifat Rahasia & Terbatas</span>
+            </div>
+            <p>© 2026 Organizing Committee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Scripts -->
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+
+        // Target Date: 14 days from now for countdown demonstration
+        const targetDate = new Date();
+        targetDate.setDate(targetDate.getDate() + 14);
+        targetDate.setHours(9, 0, 0, 0);
+
+        function updateCountdown() {
+            const now = new Date().getTime();
+            const distance = targetDate.getTime() - now;
+
+            if (distance < 0) {
+                document.getElementById('days').innerText = "00";
+                document.getElementById('hours').innerText = "00";
+                document.getElementById('minutes').innerText = "00";
+                document.getElementById('seconds').innerText = "00";
+                return;
+            }
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').innerText = String(days).padStart(2, '0');
+            document.getElementById('hours').innerText = String(hours).padStart(2, '0');
+            document.getElementById('minutes').innerText = String(minutes).padStart(2, '0');
+            document.getElementById('seconds').innerText = String(seconds).padStart(2, '0');
+        }
+
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+
+        // Handle RSVP Form Submission
+        function handleRsvpSubmit(e) {
+            e.preventDefault();
+            const name = document.getElementById('guestName').value;
+            const company = document.getElementById('guestCompany').value;
+            const attendance = document.querySelector('input[name="attendance"]:checked').value;
+
+            // Trigger celebration confetti
+            confetti({
+                particleCount: 80,
+                spread: 70,
+                origin: { y: 0.6 }
+            });
+
+            // Switch to success view
+            document.getElementById('rsvpForm').classList.add('hidden');
+            const successBox = document.getElementById('rsvpSuccess');
+            successBox.classList.remove('hidden');
+
+            document.getElementById('rsvpSummary').innerHTML = `
+                Konfirmasi untuk <strong>${name}</strong> (${company}) dengan status 
+                <span class="text-teal-400 font-semibold underline decoration-teal-500">${attendance}</span> berhasil disimpan.
+                QR pass registrasi telah dikirimkan ke email Anda.
+            `;
+            lucide.createIcons();
+        }
+
+        function resetRsvpForm() {
+            document.getElementById('rsvpForm').reset();
+            document.getElementById('rsvpForm').classList.remove('hidden');
+            document.getElementById('rsvpSuccess').classList.add('hidden');
+        }
+
+        // Copy Virtual Meeting Link
+        function copyMeetingLink() {
+            const meetingDetails = "Zoom Meeting: STRATCON 2026 Executive Summit\\nMeeting ID: 892 4410 8892\\nPasscode: STRATCON26\\nLink: https://zoom.us/j/89244108892?pwd=STRATCON2026";
+            navigator.clipboard.writeText(meetingDetails).then(() => {
+                const btn = document.getElementById('copyBtnText');
+                const orig = btn.innerText;
+                btn.innerText = "✓ Berhasil Disalin ke Clipboard!";
+                setTimeout(() => {
+                    btn.innerText = orig;
+                }, 2500);
+            });
+        }
+
+        // Download Calendar Invite (.ics file)
+        function downloadCalendarInvite() {
+            const icsData = [
+                "BEGIN:VCALENDAR",
+                "VERSION:2.0",
+                "PRODID:-//Executive Summit 2026//ID",
+                "BEGIN:VEVENT",
+                "UID:stratcon-2026-summit@corporate.id",
+                "DTSTAMP:20261111T000000Z",
+                "DTSTART:20261126T020000Z",
+                "DTEND:20261126T093000Z",
+                "SUMMARY:Executive Strategy & Digital Transformation Summit 2026",
+                "DESCRIPTION:Pertemuan strategis tingkat pimpinan direksi dan mitra ekosistem STRATCON 2026.",
+                "LOCATION:Grand Ballroom Ayana Midplaza Jakarta & Zoom Hybrid",
+                "STATUS:CONFIRMED",
+                "END:VEVENT",
+                "END:VCALENDAR"
+            ].join("\\r\\n");
+
+            const blob = new Blob([icsData], { type: 'text/calendar;charset=utf-8' });
+            const link = document.createElement('a');
+            link.href = window.URL.createObjectURL(blob);
+            link.setAttribute('download', 'STRATCON_2026_Meeting_Invite.ics');
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>
